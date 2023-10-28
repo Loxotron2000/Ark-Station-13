@@ -11,32 +11,32 @@
 /obj/item/clothing/under/plasmaman/security
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/plasmaman.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/plasmaman.dmi'
-	icon_state = "security_envirosuit_new"
+	icon_state = "security_envirosuit" // ARK STATION EDIT || REDSEC
 
 /obj/item/clothing/under/plasmaman/security/warden
-	icon_state = "warden_envirosuit_new"
+	icon_state = "warden_envirosuit" // ARK STATION EDIT || REDSEC
 
 /obj/item/clothing/under/plasmaman/security/head_of_security
-	icon_state = "hos_envirosuit_new"
+	icon_state = "hos_envirosuit" // ARK STATION EDIT || REDSEC
 
 /obj/item/clothing/head/helmet/space/plasmaman/security
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/plasmaman_hats.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/plasmaman_head.dmi'
-	icon_state = "security_envirohelm_new"
+	icon_state = "security_envirohelm" // ARK STATION EDIT || REDSEC
 
 /obj/item/clothing/head/helmet/space/plasmaman/security/warden
-	icon_state = "warden_envirohelm_new"
+	icon_state = "warden_envirohelm" // ARK STATION EDIT || REDSEC
 
 /obj/item/clothing/head/helmet/space/plasmaman/security/head_of_security
-	icon_state = "hos_envirohelm_new"
+	icon_state = "hos_envirohelm" // ARK STATION EDIT || REDSEC
 
 /*
 * ACCESSORIES
 */
-/obj/item/clothing/accessory/armband/deputy
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/accessories.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/accessories.dmi'
-	icon_state = "armband_lopland"
+/obj/item/clothing/accessory/armband/deputy // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/accessories.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/accessories.dmi'
+	// icon_state = "armband_lopland"
 
 /obj/item/clothing/accessory/armband/deputy/lopland
 	desc = "A Peacekeeper-blue armband, showing the wearer to be certified by Lopland as a top-of-their-class Security Officer."
@@ -44,13 +44,13 @@
 /*
 * BACKPACKS
 */
-/obj/item/storage/backpack/security
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
-	lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
-	righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
-	icon_state = "backpack_security_black"
-	inhand_icon_state = "backpack_security_black"
+/obj/item/storage/backpack/security // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
+	// lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
+	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
+	// icon_state = "backpack_security_black"
+	// inhand_icon_state = "backpack_security_black"
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(
@@ -65,13 +65,13 @@
 		),
 	)
 
-/obj/item/storage/backpack/satchel/sec
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
-	lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
-	righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
-	icon_state = "satchel_security_black"
-	inhand_icon_state = "satchel_security_black"
+/obj/item/storage/backpack/satchel/sec // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
+	// lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
+	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
+	// icon_state = "satchel_security_black"
+	// inhand_icon_state = "satchel_security_black"
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(
@@ -86,13 +86,13 @@
 		),
 	)
 
-/obj/item/storage/backpack/duffelbag/sec
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
-	lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
-	righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
-	icon_state = "duffel_security_black"
-	inhand_icon_state = "duffel_security_black"
+/obj/item/storage/backpack/duffelbag/sec // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/backpacks.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/back.dmi'
+	// lefthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_lefthand.dmi'
+	// righthand_file = 'modular_skyrat/master_files/icons/mob/inhands/clothing/backpack_righthand.dmi'
+	// icon_state = "duffel_security_black"
+	// inhand_icon_state = "duffel_security_black"
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(
@@ -110,11 +110,11 @@
 /*
 * BELTS
 */
-/obj/item/storage/belt/security
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi'
-	icon_state = "belt_white"
-	worn_icon_state = "belt_white"
+/obj/item/storage/belt/security // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi'
+	// icon_state = "belt_white"
+	// worn_icon_state = "belt_white"
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
 		"Black Variant" = list(
@@ -174,85 +174,85 @@
 /*
 * GLASSES
 */
-/obj/item/clothing/glasses/hud/security
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/glasses.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/eyes.dmi'
-	icon_state = "security_hud"
-	glass_colour_type = /datum/client_colour/glass_colour/lightblue
+// // /obj/item/clothing/glasses/hud/security // ARK STATION EDIT || REDSEC
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/glasses.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/eyes.dmi'
+// 	// icon_state = "security_hud"
+// 	// glass_colour_type = /datum/client_colour/glass_colour/lightblue
 
-/obj/item/clothing/glasses/hud/security/sunglasses
-	icon_state = "security_hud_black"
-	glass_colour_type = /datum/client_colour/glass_colour/blue
-	uses_advanced_reskins = TRUE
-	unique_reskin = list(
-		"Dark-Tint Variant" = list(
-			RESKIN_ICON_STATE = "security_hud_black",
-			RESKIN_WORN_ICON_STATE = "security_hud_black"
-		),
-		"Light-Tint Variant" = list(
-			RESKIN_ICON_STATE = "security_hud_blue",
-			RESKIN_WORN_ICON_STATE = "security_hud_blue"
-		),
-	)
+// /obj/item/clothing/glasses/hud/security/sunglasses
+// 	// icon_state = "security_hud_black"
+// 	// glass_colour_type = /datum/client_colour/glass_colour/blue
+// 	uses_advanced_reskins = TRUE
+// 	unique_reskin = list(
+// 		"Dark-Tint Variant" = list(
+// 			RESKIN_ICON_STATE = "security_hud_black",
+// 			RESKIN_WORN_ICON_STATE = "security_hud_black"
+// 		),
+// 		"Light-Tint Variant" = list(
+// 			RESKIN_ICON_STATE = "security_hud_blue",
+// 			RESKIN_WORN_ICON_STATE = "security_hud_blue"
+// 		),
+// 	)
 
-/obj/item/clothing/glasses/hud/security/sunglasses/eyepatch
-	icon_state = "security_eyepatch"
-	base_icon_state = "security_eyepatch"
+// /obj/item/clothing/glasses/hud/security/sunglasses/eyepatch
+// 	icon_state = "security_eyepatch"
+// 	base_icon_state = "security_eyepatch"
 
-/obj/item/clothing/glasses/hud/security/night
-	icon_state = "security_hud_nv"
-	glass_colour_type = /datum/client_colour/glass_colour/green
+// /obj/item/clothing/glasses/hud/security/night
+// 	icon_state = "security_hud_nv"
+// 	glass_colour_type = /datum/client_colour/glass_colour/green
 
 /*
 * HEAD
 */
 
 //Overrides the bulletproof helm with the older non red visor version.
-/obj/item/clothing/head/helmet/alt
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
-	icon_state = "helmetalt_blue"
-	base_icon_state = "helmetalt_blue"
+// /obj/item/clothing/head/helmet/alt
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
+// 	icon_state = "helmetalt_blue"
+// 	base_icon_state = "helmetalt_blue"
 
 //Standard helmet (w/ visor)
-/obj/item/clothing/head/helmet/sec
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
-	icon_state = "security_helmet"
-	base_icon_state = "security_helmet"
-	actions_types = list(/datum/action/item_action/toggle)
-	supports_variations_flags = CLOTHING_SNOUTED_VARIATION
-	flags_cover = HEADCOVERSEYES | PEPPERPROOF
-	visor_flags_cover = HEADCOVERSEYES | PEPPERPROOF
-	dog_fashion = null
+// /obj/item/clothing/head/helmet/sec // ARK STATION EDIT || REDSEC
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/helmet.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/helmet.dmi'
+// 	icon_state = "security_helmet"
+// 	base_icon_state = "security_helmet"
+// 	actions_types = list(/datum/action/item_action/toggle)
+// 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION
+// 	flags_cover = HEADCOVERSEYES | PEPPERPROOF
+// 	visor_flags_cover = HEADCOVERSEYES | PEPPERPROOF
+// 	dog_fashion = null
 
-	///chat message when the visor is toggled down.
-	var/toggle_message = "You pull the visor down on"
-	///chat message when the visor is toggled up.
-	var/alt_toggle_message = "You push the visor up on"
-	///Can toggle?
-	var/can_toggle = TRUE
+// 	///chat message when the visor is toggled down.
+// 	var/toggle_message = "You pull the visor down on"
+// 	///chat message when the visor is toggled up.
+// 	var/alt_toggle_message = "You push the visor up on"
+// 	///Can toggle?
+// 	var/can_toggle = TRUE
 
-/// Duplication of toggleable logic - only way to make it toggleable without worse hacks due to being in base maps.
-/obj/item/clothing/head/helmet/sec/attack_self(mob/user)
-	. = ..()
-	if(.)
-		return
-	if(user.incapacitated() || !can_toggle)
-		return
-	up = !up
-	flags_1 ^= visor_flags
-	flags_inv ^= visor_flags_inv
-	flags_cover ^= visor_flags_cover
-	// This part is changed to work with the seclight.
-	base_icon_state = "[initial(icon_state)][up ? "up" : ""]"
-	update_icon_state()
-	to_chat(user, span_notice("[up ? alt_toggle_message : toggle_message] \the [src]."))
+// /// Duplication of toggleable logic - only way to make it toggleable without worse hacks due to being in base maps.
+// /obj/item/clothing/head/helmet/sec/attack_self(mob/user)
+// 	. = ..()
+// 	if(.)
+// 		return
+// 	if(user.incapacitated() || !can_toggle)
+// 		return
+// 	up = !up
+// 	flags_1 ^= visor_flags
+// 	flags_inv ^= visor_flags_inv
+// 	flags_cover ^= visor_flags_cover
+// 	// This part is changed to work with the seclight.
+// 	base_icon_state = "[initial(icon_state)][up ? "up" : ""]"
+// 	update_icon_state()
+// 	to_chat(user, span_notice("[up ? alt_toggle_message : toggle_message] \the [src]."))
 
-	user.update_worn_head()
-	if(iscarbon(user))
-		var/mob/living/carbon/carbon_user = user
-		carbon_user.head_update(src, forced = TRUE)
+// 	user.update_worn_head()
+// 	if(iscarbon(user))
+// 		var/mob/living/carbon/carbon_user = user
+// 		carbon_user.head_update(src, forced = TRUE)
 
 
 //Beret replacement
@@ -277,55 +277,55 @@
 		),
 	)
 
-/obj/item/clothing/head/security_cap
+/obj/item/clothing/head/security_cap // ARK STATION EDIT || REDSEC
 	name = "security cap"
 	desc = "A robust cap with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
-	icon_state = "security_cap_black"
-	uses_advanced_reskins = TRUE
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
+	// icon_state = "security_cap_black"
+	// uses_advanced_reskins = TRUE
 	armor_type = /datum/armor/head_helmet
 	strip_delay = 60
 	dog_fashion = null
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
-	unique_reskin = list(
-		"Black Variant" = list(
-			RESKIN_ICON_STATE = "security_cap_black",
-			RESKIN_WORN_ICON_STATE = "security_cap_black"
-		),
-		"Blue Variant" = list(
-			RESKIN_ICON_STATE = "security_cap_blue",
-			RESKIN_WORN_ICON_STATE = "security_cap_blue"
-		),
-		"White Variant" = list(
-			RESKIN_ICON_STATE = "security_cap_white",
-			RESKIN_WORN_ICON_STATE = "security_cap_white"
-		),
-	)
+	// unique_reskin = list(
+	// 	"Black Variant" = list(
+	// 		RESKIN_ICON_STATE = "security_cap_black",
+	// 		RESKIN_WORN_ICON_STATE = "security_cap_black"
+	// 	),
+	// 	"Blue Variant" = list(
+	// 		RESKIN_ICON_STATE = "security_cap_blue",
+	// 		RESKIN_WORN_ICON_STATE = "security_cap_blue"
+	// 	),
+	// 	"White Variant" = list(
+	// 		RESKIN_ICON_STATE = "security_cap_white",
+	// 		RESKIN_WORN_ICON_STATE = "security_cap_white"
+	// 	),
+	// )
 
-/obj/item/clothing/head/hats/hos/cap
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
-	icon_state = "hoscap_blue"
-	uses_advanced_reskins = TRUE
-	unique_reskin = list(
-		"Blue Cap" = list(
-			RESKIN_ICON_STATE = "hoscap_blue",
-			RESKIN_WORN_ICON_STATE = "hoscap_blue"
-		),
-		"Sol Cap" = list(
-			RESKIN_ICON_STATE = "policechiefcap",
-			RESKIN_WORN_ICON_STATE = "policechiefcap"
-		),
-		"Sheriff Hat" = list(
-			RESKIN_ICON_STATE = "cowboyhat_black",
-			RESKIN_WORN_ICON_STATE = "cowboyhat_black"
-		),
-		"Wide Sheriff Hat" = list(
-			RESKIN_ICON_STATE = "cowboy_black",
-			RESKIN_WORN_ICON_STATE = "cowboy_black"
-		)
-	)
+// /obj/item/clothing/head/hats/hos/cap  // ARK STATION EDIT || REDSEC
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
+// 	icon_state = "hoscap_blue"
+// 	uses_advanced_reskins = TRUE
+// 	unique_reskin = list(
+// 		"Blue Cap" = list(
+// 			RESKIN_ICON_STATE = "hoscap_blue",
+// 			RESKIN_WORN_ICON_STATE = "hoscap_blue"
+// 		),
+// 		"Sol Cap" = list(
+// 			RESKIN_ICON_STATE = "policechiefcap",
+// 			RESKIN_WORN_ICON_STATE = "policechiefcap"
+// 		),
+// 		"Sheriff Hat" = list(
+// 			RESKIN_ICON_STATE = "cowboyhat_black",
+// 			RESKIN_WORN_ICON_STATE = "cowboyhat_black"
+// 		),
+// 		"Wide Sheriff Hat" = list(
+// 			RESKIN_ICON_STATE = "cowboy_black",
+// 			RESKIN_WORN_ICON_STATE = "cowboy_black"
+// 		)
+// 	)
 
 //Need to quickly redefine this so the icon doesnt break
 /obj/item/clothing/head/hats/hos/cap/syndicate
@@ -343,33 +343,36 @@
 	icon_state = "hoscloak_blue"
 
 //Not technically an override but oh well
-/obj/item/clothing/neck/security_cape
+/obj/item/clothing/neck/security_cape // ARK STATION EDIT || REDSEC
 	name = "security cape"
 	desc = "A fashionable cape worn by security officers."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
-	icon_state = "cape_black"
-	inhand_icon_state = "" //no unique inhands
-	uses_advanced_reskins = TRUE
-	unique_reskin = list(
-		"Black Variant" = list(
-			RESKIN_ICON_STATE = "cape_black",
-			RESKIN_WORN_ICON_STATE = "cape_black"
-		),
-		"Blue Variant" = list(
-			RESKIN_ICON_STATE = "cape_blue",
-			RESKIN_WORN_ICON_STATE = "cape_blue"
-		),
-		"White Variant" = list(
-			RESKIN_ICON_STATE = "cape_white",
-			RESKIN_WORN_ICON_STATE = "cape_white"
-		),
-	)
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	// icon_state = "cape_black"
+	// inhand_icon_state = "" //no unique inhands
+	// uses_advanced_reskins = TRUE
+	// unique_reskin = list(
+	// 	"Black Variant" = list(
+	// 		RESKIN_ICON_STATE = "cape_black",
+	// 		RESKIN_WORN_ICON_STATE = "cape_black"
+	// 	),
+	// 	"Blue Variant" = list(
+	// 		RESKIN_ICON_STATE = "cape_blue",
+	// 		RESKIN_WORN_ICON_STATE = "cape_blue"
+	// 	),
+	// 	"White Variant" = list(
+	// 		RESKIN_ICON_STATE = "cape_white",
+	// 		RESKIN_WORN_ICON_STATE = "cape_white"
+	// 	),
+	// )
 	///Decides the shoulder it lays on, false = RIGHT, TRUE = LEFT
 	var/swapped = FALSE
 
 /obj/item/clothing/neck/security_cape/armplate
 	name = "security gauntlet"
+	desc = "A fashionable cape worn by security officers."
+	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
 	desc = "A fashionable full-arm gauntlet worn by security officers. The gauntlet itself is made of plastic, and provides no protection, but it looks cool as hell."
 	icon_state = "armplate_black"
 	uses_advanced_reskins = TRUE
@@ -431,12 +434,12 @@
 /obj/item/clothing/gloves/tackler/security	//Can't just overwrite tackler, as there's a ton of subtypes that we'd then need to account for. This is easier. MUCH easier.
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/gloves.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi'
-	icon_state = "tackle_blue"
+	icon_state = "tackle"
 
 /obj/item/clothing/gloves/krav_maga/sec
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/gloves.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/hands.dmi'
-	icon_state = "fightgloves_blue"
+	icon_state = "fightgloves"
 
 /*
 * SUITS
@@ -444,24 +447,24 @@
 /obj/item/clothing/suit/armor/vest/alt/sec
 	name = "armored security vest"
 	desc = "A Type-II-AD-P armored vest that provides decent protection against most types of damage."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
-	icon_state = "vest_white"
-	uses_advanced_reskins = TRUE
-	unique_reskin = list(
-		"Black Variant" = list(
-			RESKIN_ICON_STATE = "vest_black",
-			RESKIN_WORN_ICON_STATE = "vest_black"
-		),
-		"Blue Variant" = list(
-			RESKIN_ICON_STATE = "vest_blue",
-			RESKIN_WORN_ICON_STATE = "vest_blue"
-		),
-		"White Variant" = list(
-			RESKIN_ICON_STATE = "vest_white",
-			RESKIN_WORN_ICON_STATE = "vest_white"
-		),
-	)
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
+	// icon_state = "vest_white"
+	// uses_advanced_reskins = TRUE
+	// unique_reskin = list(
+	// 	"Black Variant" = list(
+	// 		RESKIN_ICON_STATE = "vest_black",
+	// 		RESKIN_WORN_ICON_STATE = "vest_black"
+	// 	),
+	// 	"Blue Variant" = list(
+	// 		RESKIN_ICON_STATE = "vest_blue",
+	// 		RESKIN_WORN_ICON_STATE = "vest_blue"
+	// 	),
+	// 	"White Variant" = list(
+	// 		RESKIN_ICON_STATE = "vest_white",
+	// 		RESKIN_WORN_ICON_STATE = "vest_white"
+	// 	),
+	// )
 
 /obj/item/clothing/suit/armor/hos
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION_NO_NEW_ICON
@@ -506,10 +509,10 @@
 	worn_icon = 'icons/mob/clothing/suits/armor.dmi'
 
 //Warden's Vest
-/obj/item/clothing/suit/armor/vest/warden
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
-	icon_state = "vest_warden"
+/obj/item/clothing/suit/armor/vest/warden // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
+	// icon_state = "vest_warden"
 
 /obj/item/clothing/suit/armor/vest/warden/alt //un-overrides this since its sprite is TG
 	icon = 'icons/obj/clothing/suits/armor.dmi'
@@ -517,24 +520,24 @@
 	current_skin = "warden_jacket" //prevents reskinning
 
 //Security Wintercoat (and hood)
-/obj/item/clothing/head/hooded/winterhood/security
-	desc = "A blue, armour-padded winter hood. Definitely not bulletproof, especially not the part where your face goes." //God dammit TG stop putting color in the desc of items like this
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/head/winterhood.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/winterhood.dmi'
-	icon_state = "winterhood_security"
+/obj/item/clothing/head/hooded/winterhood/security // ARK STATION EDIT || REDSEC
+	// desc = "A blue, armour-padded winter hood. Definitely not bulletproof, especially not the part where your face goes." //God dammit TG stop putting color in the desc of items like this
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/head/winterhood.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head/winterhood.dmi'
+	// icon_state = "winterhood_security"
 
-/obj/item/clothing/suit/hooded/wintercoat/security
+/obj/item/clothing/suit/hooded/wintercoat/security // ARK STATION EDIT || REDSEC
 	name = "security winter coat" //TG has this as a Jacket now, so unless we update ours, this needs to be re-named as Coat
-	desc = "A blue, armour-padded winter coat. It glitters with a mild ablative coating and a robust air of authority. The zipper tab is a small <b>\"Lopland\"</b> logo."
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/wintercoat.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/wintercoat.dmi'
-	icon_state = "coatsecurity_winter"
+	// desc = "A blue, armour-padded winter coat. It glitters with a mild ablative coating and a robust air of authority. The zipper tab is a small <b>\"Lopland\"</b> logo."
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/wintercoat.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/wintercoat.dmi'
+	// icon_state = "coatsecurity_winter"
 
-/obj/item/clothing/suit/armor/hos/hos_formal
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
-	icon_state = "hosformal_blue"
-	current_skin = "hosformal_blue"	//prevents reskinning (but not toggling!)
+/obj/item/clothing/suit/armor/hos/hos_formal // ARK STATION EDIT || REDSEC
+	// icon = 'modular_skyrat/master_files/icons/obj/clothing/suits/armor.dmi'
+	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/suits/armor.dmi'
+	// icon_state = "hosformal_blue"
+	// current_skin = "hosformal_blue"	//prevents reskinning (but not toggling!)
 	supports_variations_flags = CLOTHING_DIGITIGRADE_VARIATION
 
 /*
@@ -545,7 +548,7 @@
 	desc = "A tactical security uniform for officers, complete with a Lopland belt buckle."
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/security.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/security.dmi'
-	icon_state = "security_black"
+	icon_state = "rsecurity"
 	alt_covers_chest = TRUE
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
@@ -563,41 +566,45 @@
 		),
 	)
 
-/obj/item/clothing/under/rank/security/officer/formal
-	unique_reskin = null // prevents you from losing the unique sprite
+// ARK STATION EDIT || REDSEC //
 
-/obj/item/clothing/under/rank/security/officer/skirt
-	name = "security battle dress"
-	desc = "An asymmetrical, unisex uniform with the legs replaced by a utility skirt."
-	worn_icon_state = "security_skirt"
-	icon_state = "security_skirt"
-	uses_advanced_reskins = FALSE
-	unique_reskin = null
-	alt_covers_chest = FALSE
+// /obj/item/clothing/under/rank/security/officer/formal
+// 	unique_reskin = null // prevents you from losing the unique sprite
 
-//Warden
-/obj/item/clothing/under/rank/security/warden
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/security.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/security.dmi'
-	icon_state = "warden_black"
+// /obj/item/clothing/under/rank/security/officer/skirt
+// 	name = "security battle dress"
+// 	desc = "An asymmetrical, unisex uniform with the legs replaced by a utility skirt."
+// 	worn_icon_state = "secskirt" // ARK STATION EDIT || REDSEC
+// 	icon_state = "secskirt" // ARK STATION EDIT || REDSEC
+// 	uses_advanced_reskins = FALSE
+// 	unique_reskin = null
+// 	alt_covers_chest = FALSE
 
-//HoS
-/obj/item/clothing/under/rank/security/head_of_security
-	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/security.dmi'
-	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/security.dmi'
-	icon_state = "hos_black"
+// //Warden
+// /obj/item/clothing/under/rank/security/warden
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/security.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/security.dmi'
+// 	icon_state = "rwarden"
 
-/obj/item/clothing/under/rank/security/head_of_security/parade
-	icon_state = "hos_parade_male_blue"
+// //HoS
+// /obj/item/clothing/under/rank/security/head_of_security
+// 	icon = 'modular_skyrat/master_files/icons/obj/clothing/under/security.dmi'
+// 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/under/security.dmi'
+// 	icon_state = "hos_black"
 
-/obj/item/clothing/under/rank/security/head_of_security/parade/female
-	icon_state = "hos_parade_fem_blue"
+// /obj/item/clothing/under/rank/security/head_of_security/parade
+// 	icon_state = "hos_parade_male_blue"
 
-/obj/item/clothing/under/rank/security/head_of_security/alt
-	icon_state = "hosalt_blue"
+// /obj/item/clothing/under/rank/security/head_of_security/parade/female
+// 	icon_state = "hos_parade_fem_blue"
 
-/obj/item/clothing/under/rank/security/head_of_security/alt/skirt
-	icon_state = "hosalt_skirt_blue"
+// /obj/item/clothing/under/rank/security/head_of_security/alt
+// 	icon_state = "hosalt_blue"
+
+// /obj/item/clothing/under/rank/security/head_of_security/alt/skirt
+// 	icon_state = "hosalt_skirt_blue"
+
+// ARK STATION EDIT || REDSEC //
 
 /*
 * FEET
@@ -606,7 +613,7 @@
 /obj/item/clothing/shoes/jackboots/sec
 	name = "security jackboots"
 	desc = "Lopland's Peacekeeper-issue Security combat boots for combat scenarios or combat situations. All combat, all the time."
-	icon_state = "security_boots"
+	icon_state = "jackboots" // ARK STATION EDIT || REDSEC
 	icon = 'modular_skyrat/master_files/icons/obj/clothing/shoes.dmi'
 	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/feet.dmi'
 	clothing_traits = list(TRAIT_SILENT_FOOTSTEPS) // We have other footsteps.
@@ -646,18 +653,18 @@
 		affected_mob.jumpsuit_style = PREF_SUIT
 	. = ..()
 
-//PDA Greyscale Overrides
-/obj/item/modular_computer/pda/security
-	greyscale_colors = "#2B356D#1E1E1E"
+//PDA Greyscale Overrides // ARK STATION EDIT || REDSEC
+// /obj/item/modular_computer/pda/security
+// 	greyscale_colors = "#2B356D#1E1E1E"
 
-/obj/item/modular_computer/pda/detective
-	greyscale_colors = "#90714F#1E1E1E"
+// /obj/item/modular_computer/pda/detective
+// 	greyscale_colors = "#90714F#1E1E1E"
 
-/obj/item/modular_computer/pda/warden
-	greyscale_colors = "#2F416E#1E1E1E#ACACAC"
+// /obj/item/modular_computer/pda/warden
+// 	greyscale_colors = "#2F416E#1E1E1E#ACACAC"
 
-/obj/item/modular_computer/pda/heads/hos
-	greyscale_colors = "#2B356D#1E1E1E"
+// /obj/item/modular_computer/pda/heads/hos
+// 	greyscale_colors = "#2B356D#1E1E1E"
 
 /*
 *	A bunch of re-overrides so that admins can keep using some redsec stuff; not all of them have this though!
