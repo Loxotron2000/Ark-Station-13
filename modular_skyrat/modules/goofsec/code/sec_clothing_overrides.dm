@@ -110,30 +110,30 @@
 /*
 * BELTS
 */
-/obj/item/storage/belt/security // ARK STATION EDIT || REDSEC
+// /obj/item/storage/belt/security // ARK STATION EDIT || REDSEC
 	// icon = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi'
 	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/belt.dmi'
 	// icon_state = "belt_white"
 	// worn_icon_state = "belt_white"
-	uses_advanced_reskins = TRUE
-	unique_reskin = list(
-		"Black Variant" = list(
-			RESKIN_ICON_STATE = "belt_black",
-			RESKIN_WORN_ICON_STATE = "belt_black"
-		),
-		"Blue Variant" = list(
-			RESKIN_ICON_STATE = "belt_blue",
-			RESKIN_WORN_ICON_STATE = "belt_blue"
-		),
-		"White Variant" = list(
-			RESKIN_ICON_STATE = "belt_white",
-			RESKIN_WORN_ICON_STATE = "belt_white"
-		),
-		"Slim Variant" = list(
-			RESKIN_ICON_STATE = "belt_slim",
-			RESKIN_WORN_ICON_STATE = "belt_slim"
-		),
-	)
+	// uses_advanced_reskins = TRUE
+	// unique_reskin = list(
+	// 	"Black Variant" = list(
+	// 		RESKIN_ICON_STATE = "belt_black",
+	// 		RESKIN_WORN_ICON_STATE = "belt_black"
+	// 	),
+	// 	"Blue Variant" = list(
+	// 		RESKIN_ICON_STATE = "belt_blue",
+	// 		RESKIN_WORN_ICON_STATE = "belt_blue"
+	// 	),
+	// 	"White Variant" = list(
+	// 		RESKIN_ICON_STATE = "belt_white",
+	// 		RESKIN_WORN_ICON_STATE = "belt_white"
+	// 	),
+	// 	"Slim Variant" = list(
+	// 		RESKIN_ICON_STATE = "belt_slim",
+	// 		RESKIN_WORN_ICON_STATE = "belt_slim"
+	// 	),
+	// )
 
 /obj/item/storage/belt/security/webbing
 	uses_advanced_reskins = FALSE
