@@ -50,8 +50,6 @@
 					/obj/item/clothing/under/rank/security/peacekeeper = 10,
 					/obj/item/clothing/under/rank/security/skyrat/utility = 3,
 					/obj/item/clothing/shoes/jackboots/sec = 10,
-					/obj/item/clothing/head/security_garrison = 10,
-					/obj/item/clothing/head/security_cap = 10,
 					/obj/item/clothing/head/beret/sec/peacekeeper = 5,
 					/obj/item/clothing/head/helmet/sec/sol = 5,
 					/obj/item/clothing/head/hats/warden/police/patrol = 5,
@@ -64,6 +62,8 @@
 	refill_canister = /obj/item/vending_refill/wardrobe/peacekeeper_wardrobe
 	payment_department = ACCOUNT_SEC
 	light_color = COLOR_MODERATE_BLUE
+
+// /obj/item/clothing/head/security_cap = 10, /obj/item/clothing/head/security_garrison = 10,
 
 /obj/item/vending_refill/wardrobe/peacekeeper_wardrobe
 	machine_name = "Peacekeeper outfitting station"

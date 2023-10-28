@@ -280,28 +280,28 @@
 /obj/item/clothing/head/security_cap // ARK STATION EDIT || REDSEC
 	name = "security cap"
 	desc = "A robust cap with the security insignia emblazoned on it. Uses reinforced fabric to offer sufficient protection."
-	// icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
-	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
-	// icon_state = "security_cap_black"
-	// uses_advanced_reskins = TRUE
+	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/head.dmi'
+	icon_state = "security_cap_black"
+	uses_advanced_reskins = TRUE
 	armor_type = /datum/armor/head_helmet
 	strip_delay = 60
 	dog_fashion = null
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
-	// unique_reskin = list(
-	// 	"Black Variant" = list(
-	// 		RESKIN_ICON_STATE = "security_cap_black",
-	// 		RESKIN_WORN_ICON_STATE = "security_cap_black"
-	// 	),
-	// 	"Blue Variant" = list(
-	// 		RESKIN_ICON_STATE = "security_cap_blue",
-	// 		RESKIN_WORN_ICON_STATE = "security_cap_blue"
-	// 	),
-	// 	"White Variant" = list(
-	// 		RESKIN_ICON_STATE = "security_cap_white",
-	// 		RESKIN_WORN_ICON_STATE = "security_cap_white"
-	// 	),
-	// )
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON_STATE = "security_cap_black",
+			RESKIN_WORN_ICON_STATE = "security_cap_black"
+		),
+		"Blue Variant" = list(
+			RESKIN_ICON_STATE = "security_cap_blue",
+			RESKIN_WORN_ICON_STATE = "security_cap_blue"
+		),
+		"White Variant" = list(
+			RESKIN_ICON_STATE = "security_cap_white",
+			RESKIN_WORN_ICON_STATE = "security_cap_white"
+		),
+	)
 
 // /obj/item/clothing/head/hats/hos/cap  // ARK STATION EDIT || REDSEC
 // 	icon = 'modular_skyrat/master_files/icons/obj/clothing/hats.dmi'
