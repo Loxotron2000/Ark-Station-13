@@ -800,7 +800,7 @@
 	icon_state = "helmet"
 	base_icon_state = "helmet"
 	actions_types = null
-	can_toggle = FALSE
+	// can_toggle = FALSE
 	supports_variations_flags = CLOTHING_SNOUTED_VARIATION_NO_NEW_ICON
 	flags_cover = HEADCOVERSEYES
 	flags_inv = HIDEHAIR
