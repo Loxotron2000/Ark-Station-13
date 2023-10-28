@@ -28,7 +28,7 @@
 /obj/item/vending_refill/security_peacekeeper
 	icon_state = "refill_sec"
 
-/obj/machinery/vending/wardrobe/sec_wardrobe/blue // ARK STATION EDIT || REDSEC
+/obj/machinery/vending/wardrobe/sec_wardrobe
 	name = "\improper Peacekeeper Outfitting Station"
 	desc = "A vending machine stocked with Lopland's \"Peacekeeper\" security package, including standardized uniforms and general equipment."
 	icon = 'modular_skyrat/modules/sec_haul/icons/vending/vending.dmi'
@@ -69,7 +69,7 @@
 	machine_name = "Peacekeeper outfitting station"
 
 //List for the old one, for when its mapped in; curates it nicely, adds /redsec to the items, and also prevents some conflicts with the above vendor
-/obj/machinery/vending/wardrobe/sec_wardrobe // ARK STATION EDIT || REDSEC
+/obj/machinery/vending/wardrobe/sec_wardrobe/red
 	name = "\improper SecDrobe"
 	desc = "A vending machine for security and security-related clothing!"
 	product_ads = "Beat perps in style!;It's red so you can't see the blood!;You have the right to be fashionable!;Now you can be the fashion police you always wanted to be!"
