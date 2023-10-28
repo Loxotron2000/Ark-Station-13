@@ -83,7 +83,7 @@ TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/yellow)
 
 /obj/effect/turf_decal/tile/red
 	name = "red tile decal"
-	color = "#486091" // SKYRAT EDIT CHANGE
+	color = "#DE3A3A" // SKYRAT EDIT CHANGE //// ARK STATION REVERT || REDSEC
 
 TILE_DECAL_SUBTYPE_HELPER(/obj/effect/turf_decal/tile/red)
 
