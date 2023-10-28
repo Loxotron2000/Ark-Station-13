@@ -346,25 +346,25 @@
 /obj/item/clothing/neck/security_cape // ARK STATION EDIT || REDSEC
 	name = "security cape"
 	desc = "A fashionable cape worn by security officers."
-	// icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
-	// worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
-	// icon_state = "cape_black"
-	// inhand_icon_state = "" //no unique inhands
-	// uses_advanced_reskins = TRUE
-	// unique_reskin = list(
-	// 	"Black Variant" = list(
-	// 		RESKIN_ICON_STATE = "cape_black",
-	// 		RESKIN_WORN_ICON_STATE = "cape_black"
-	// 	),
-	// 	"Blue Variant" = list(
-	// 		RESKIN_ICON_STATE = "cape_blue",
-	// 		RESKIN_WORN_ICON_STATE = "cape_blue"
-	// 	),
-	// 	"White Variant" = list(
-	// 		RESKIN_ICON_STATE = "cape_white",
-	// 		RESKIN_WORN_ICON_STATE = "cape_white"
-	// 	),
-	// )
+	icon = 'modular_skyrat/master_files/icons/obj/clothing/neck.dmi'
+	worn_icon = 'modular_skyrat/master_files/icons/mob/clothing/neck.dmi'
+	icon_state = "cape_black"
+	inhand_icon_state = "" //no unique inhands
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Black Variant" = list(
+			RESKIN_ICON_STATE = "cape_black",
+			RESKIN_WORN_ICON_STATE = "cape_black"
+		),
+		"Blue Variant" = list(
+			RESKIN_ICON_STATE = "cape_blue",
+			RESKIN_WORN_ICON_STATE = "cape_blue"
+		),
+		"White Variant" = list(
+			RESKIN_ICON_STATE = "cape_white",
+			RESKIN_WORN_ICON_STATE = "cape_white"
+		),
+	)
 	///Decides the shoulder it lays on, false = RIGHT, TRUE = LEFT
 	var/swapped = FALSE
 
