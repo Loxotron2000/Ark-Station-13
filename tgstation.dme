@@ -5993,6 +5993,7 @@
 #include "modular_arkstation\modules\mecha-size\code.dm"
 #include "modular_arkstation\modules\new-sounds\code.dm"
 #include "modular_arkstation\modules\new-stackobjects-sprites\code.dm"
+#include "modular_arkstation\modules\salvages\code.dm"
 #include "modular_skyrat\master_files\code\_globalvars\configuration.dm"
 #include "modular_skyrat\master_files\code\_globalvars\religion.dm"
 #include "modular_skyrat\master_files\code\_globalvars\lists\ambience.dm"
