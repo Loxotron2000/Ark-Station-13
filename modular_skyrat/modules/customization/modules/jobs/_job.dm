@@ -83,9 +83,9 @@
 	banned_quirks = list(SEC_RESTRICTED_QUIRKS)
 	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
 
-/datum/job/corrections_officer
-	banned_quirks = list(SEC_RESTRICTED_QUIRKS)
-	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
+///datum/job/corrections_officer
+//	banned_quirks = list(SEC_RESTRICTED_QUIRKS)
+//	banned_augments = list(SEC_RESTRICTED_AUGMENTS)
 
 // Command
 /datum/job/captain

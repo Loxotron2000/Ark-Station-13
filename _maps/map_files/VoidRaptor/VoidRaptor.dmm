@@ -14476,7 +14476,6 @@
 	dir = 8
 	},
 /obj/machinery/newscaster/directional/east,
-/obj/effect/landmark/start/corrections_officer,
 /turf/open/floor/iron/dark,
 /area/station/security/range)
 "eie" = (
@@ -16961,7 +16960,6 @@
 /area/station/maintenance/disposal)
 "eSk" = (
 /obj/structure/cable,
-/obj/effect/landmark/start/customs_agent,
 /turf/open/floor/iron/smooth_large,
 /area/station/cargo/office)
 "eSl" = (
@@ -17631,7 +17629,6 @@
 /obj/structure/chair/office/light{
 	dir = 4
 	},
-/obj/effect/landmark/start/orderly,
 /turf/open/floor/iron/freezer,
 /area/station/security/checkpoint/medical)
 "fci" = (
@@ -19261,7 +19258,6 @@
 /area/station/engineering/supermatter/room)
 "fCo" = (
 /obj/machinery/status_display/ai/directional/north,
-/obj/effect/landmark/start/corrections_officer,
 /obj/effect/turf_decal/tile/dark_red/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /turf/open/floor/iron/dark/diagonal,
@@ -19314,7 +19310,6 @@
 /turf/open/floor/engine/vacuum,
 /area/station/science/ordnance/freezerchamber)
 "fDd" = (
-/obj/effect/landmark/start/corrections_officer,
 /obj/effect/turf_decal/tile/dark_red/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /obj/machinery/light/cold/directional/west,
@@ -24613,7 +24608,6 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/obj/effect/landmark/start/corrections_officer,
 /turf/open/floor/glass/reinforced,
 /area/station/security/office)
 "hdk" = (
@@ -27035,7 +27029,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/cable,
-/obj/effect/landmark/start/engineering_guard,
 /turf/open/floor/iron/smooth_edge{
 	dir = 1
 	},
@@ -29025,7 +29018,6 @@
 /obj/structure/chair/sofa/bench{
 	dir = 8
 	},
-/obj/effect/landmark/start/corrections_officer,
 /turf/open/floor/glass/reinforced,
 /area/station/security/execution/transfer)
 "irB" = (
@@ -29741,7 +29733,6 @@
 /obj/structure/sign/nanotrasen{
 	pixel_x = -32
 	},
-/obj/effect/landmark/start/science_guard,
 /turf/open/floor/iron/white/smooth_edge{
 	dir = 4
 	},
@@ -30418,7 +30409,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/structure/disposalpipe/segment,
-/obj/effect/landmark/start/customs_agent,
 /obj/effect/turf_decal/siding/wood,
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/cargo/storage)
@@ -31448,7 +31438,6 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/effect/landmark/start/engineering_guard,
 /turf/open/floor/iron/smooth_large,
 /area/station/security/checkpoint/engineering)
 "iZa" = (
@@ -32979,7 +32968,6 @@
 /obj/effect/turf_decal/tile/neutral{
 	dir = 4
 	},
-/obj/effect/landmark/start/orderly,
 /obj/structure/chair/sofa/corp/left{
 	dir = 1
 	},
@@ -40956,7 +40944,6 @@
 /obj/effect/turf_decal/trimline/brown/filled/warning{
 	dir = 4
 	},
-/obj/effect/landmark/start/customs_agent,
 /turf/open/floor/iron/smooth_edge{
 	dir = 8
 	},
@@ -41335,7 +41322,6 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 4
 	},
-/obj/effect/landmark/start/customs_agent,
 /turf/open/floor/iron/smooth_large,
 /area/station/security/checkpoint/supply)
 "lGS" = (
@@ -42517,7 +42503,6 @@
 	dir = 1
 	},
 /obj/item/radio/intercom/directional/north,
-/obj/effect/landmark/start/science_guard,
 /turf/open/floor/wood/large,
 /area/station/science/research)
 "lWr" = (
@@ -48360,7 +48345,6 @@
 /obj/structure/chair/office{
 	dir = 8
 	},
-/obj/effect/landmark/start/corrections_officer,
 /obj/effect/turf_decal/trimline/purple/filled/line{
 	dir = 8
 	},
@@ -48970,7 +48954,6 @@
 /obj/effect/turf_decal/tile/blue/fourcorners,
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/duct,
-/obj/effect/landmark/start/orderly,
 /turf/open/floor/iron/freezer,
 /area/station/security/checkpoint/medical)
 "nOQ" = (
@@ -49811,7 +49794,6 @@
 	dir = 4
 	},
 /obj/structure/chair/office,
-/obj/effect/landmark/start/science_guard,
 /obj/machinery/computer/security/telescreen{
 	desc = "Used for monitoring medbay to ensure patient safety.";
 	dir = 8;
@@ -51003,7 +50985,6 @@
 /turf/open/floor/iron/dark/smooth_large,
 /area/station/command/gateway)
 "opr" = (
-/obj/effect/landmark/start/corrections_officer,
 /obj/effect/turf_decal/tile/dark_red/diagonal_centre,
 /obj/effect/turf_decal/tile/neutral/diagonal_centre,
 /turf/open/floor/iron/dark/diagonal,
@@ -63133,7 +63114,6 @@
 /obj/effect/turf_decal/trimline/yellow/filled/warning{
 	dir = 8
 	},
-/obj/effect/landmark/start/engineering_guard,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/structure/disposalpipe/segment{
@@ -71973,7 +71953,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /obj/machinery/duct,
-/obj/effect/landmark/start/orderly,
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
@@ -74204,7 +74183,6 @@
 /obj/structure/chair{
 	dir = 8
 	},
-/obj/effect/landmark/start/engineering_guard,
 /turf/open/floor/iron/smooth_corner{
 	dir = 8
 	},

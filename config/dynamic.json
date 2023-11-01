@@ -25,10 +25,10 @@
 			"protected_roles": [
 				"Prisoner",
 				"Blueshield",
-				"Corrections Officer",
 				"Security Officer",
 				"Warden",
 				"Detective",
+				"Security Medic",
 				"Head of Security",
 				"Captain",
 				"Nanotrasen Consultant",
@@ -36,7 +36,8 @@
 				"Chief Engineer",
 				"Chief Medical Officer",
 				"Research Director",
-				"Quartermaster"
+				"Quartermaster",
+				"Lawyer"
 			],
 			"restricted_roles": [
 				"Cyborg"

@@ -130,12 +130,12 @@
 "Spawn Positions" = 1
 "Total Positions" = 2
 
-[CORRECTIONS_OFFICER]
-"Playtime Requirements" = 150
-"Required Account Age" = 7
-"# Required Character Age" = 0
-"Spawn Positions" = 1
-"Total Positions" = 1
+#[CORRECTIONS_OFFICER]
+#"Playtime Requirements" = 150
+#"Required Account Age" = 7
+#"# Required Character Age" = 0
+#"Spawn Positions" = 1
+#"Total Positions" = 1
 
 [CORONER]
 "# Playtime Requirements" = 0

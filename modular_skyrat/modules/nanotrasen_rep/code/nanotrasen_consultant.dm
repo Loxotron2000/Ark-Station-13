@@ -39,6 +39,8 @@
 	//veteran_only = TRUE // Ark Station 13 Edit - Fuck Vet's system
 	job_flags = STATION_JOB_FLAGS | JOB_BOLD_SELECT_TEXT | JOB_CANNOT_OPEN_SLOTS
 
+	job_tone = "objection"
+
 /datum/outfit/job/nanotrasen_consultant
 	name = "Nanotrasen Consultant"
 	jobtype = /datum/job/nanotrasen_consultant

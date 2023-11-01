@@ -669,17 +669,23 @@
 /datum/id_trim/job/lawyer
 	assignment = "Lawyer"
 	trim_state = "trim_lawyer"
-	department_color = COLOR_SERVICE_LIME
+	department_color = COLOR_SECURITY_RED
 	subdepartment_color = COLOR_SECURITY_RED
 	sechud_icon_state = SECHUD_LAWYER
 	minimal_access = list(
+		ACCESS_BRIG,
 		ACCESS_BRIG_ENTRANCE,
+		ACCESS_SECURITY,
 		ACCESS_COURT,
 		ACCESS_LAWYER,
 		ACCESS_MINERAL_STOREROOM,
 		ACCESS_SERVICE,
 		)
-	extra_access = list()
+	extra_access = list(
+		ACCESS_DETECTIVE,
+		ACCESS_MAINT_TUNNELS,
+		ACCESS_MORGUE,
+		)
 	template_access = list(
 		ACCESS_CAPTAIN,
 		ACCESS_CHANGE_IDS,

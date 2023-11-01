@@ -58,14 +58,10 @@ const BASEICONS = {
   'Barber': 'scissors',
   'Blueshield': 'shield-dog',
   'Bouncer': 'shield-heart',
-  'Corrections Officer': 'hands-bound',
-  'Customs Agent': 'shield-heart',
-  'Engineering Guard': 'shield-heart',
   'Nanotrasen Consultant': 'clipboard-check',
-  'Orderly': 'shield-heart',
-  'Science Guard': 'shield-heart',
+  // Ark Station 13 Edits
   'Security Medic': 'heart-pulse',
-  // SKYRAT EDIT END
+  'Bridge Officer': 'book',
 } as const;
 
 // SKYRAT EDIT START - ALT TITLES
@@ -274,6 +270,13 @@ const ALTTITLES = {
   'Dispatch Officer': BASEICONS['Warden'],
   'Brig Governor': BASEICONS['Warden'],
   'Jailer': BASEICONS['Warden'],
+  // Bridge Officer
+  'Command Secretary': BASEICONS['Bridge Officer'],
+  'Command Officer': BASEICONS['Bridge Officer'],
+  'Bridge Secretary': BASEICONS['Bridge Officer'],
+  'Ensign': BASEICONS['Bridge Officer'],
+  'Bridge Advisor': BASEICONS['Bridge Officer'],
+  'Bridge Intern': BASEICONS['Bridge Officer'],
 } as const;
 
 // Combine the Base icons and ALt titles

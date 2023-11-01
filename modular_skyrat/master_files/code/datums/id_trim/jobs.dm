@@ -80,6 +80,7 @@
 	minimal_wildcard_access = list(ACCESS_CAPTAIN, ACCESS_CENT_GENERAL)
 	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS)
 
+/*
 /datum/id_trim/job/corrections_officer
 	assignment = "Corrections Officer"
 	trim_icon = 'modular_skyrat/master_files/icons/obj/card.dmi'
@@ -94,6 +95,7 @@
 				)
 	template_access = list(ACCESS_CAPTAIN, ACCESS_CHANGE_IDS, ACCESS_HOS)
 	job = /datum/job/corrections_officer
+*/
 
 /datum/id_trim/job/barber
 	assignment = "Barber"
