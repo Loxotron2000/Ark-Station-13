@@ -6006,7 +6006,6 @@
 #include "modular_arkstation\modules\blooper\bark.dm"
 #include "modular_arkstation\modules\blooper\bark_list.dm"
 #include "modular_arkstation\modules\erp-interactions\_defines.dm"
-#include "modular_arkstation\modules\erp-interactions\code.dm"
 #include "modular_arkstation\modules\mecha-size\code.dm"
 #include "modular_arkstation\modules\new-sounds\code.dm"
 #include "modular_arkstation\modules\new-stackobjects-sprites\code.dm"
