@@ -1,4 +1,4 @@
-/datum/job/corrections_officer
+/*/datum/job/corrections_officer
 	title = JOB_CORRECTIONS_OFFICER
 	description = "Guard the permabrig, stand around looking imposing, get fired for abusing the prisoners"
 	auto_deadmin_role_flags = DEADMIN_POSITION_SECURITY
@@ -59,4 +59,4 @@
 	id_trim = /datum/id_trim/job/corrections_officer
 
 
-
+*/

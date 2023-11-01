@@ -17,4 +17,4 @@
 
 /// Returns whether the client should receive the gamer cloak
 ///client/proc/is_veteran()
-	//return get_exp_living(pure_numeric = TRUE) >= PLAYTIME_VETERAN // Arc Station 13 Edit - Fuck Vet's system
+	//return get_exp_living(pure_numeric = TRUE) >= PLAYTIME_VETERAN // Ark Station 13 Edit - Fuck Vet's system

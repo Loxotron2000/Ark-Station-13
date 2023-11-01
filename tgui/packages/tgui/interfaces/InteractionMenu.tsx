@@ -40,37 +40,39 @@ export const InteractionMenu = (props, context) => {
           <NoticeBox>Able to Interact</NoticeBox>
         )}
         <Stack fill vertical>
-          <Section key="interactions">
+          <Stack.Item key="interactions">
             {categories.map((category) => (
               <Collapsible key={category} title={category}>
-                <Section fill vertical>
+                <Stack fill vertical>
                   <Box mt={0.2} grow>
                     {interactions[category].map((interaction) => (
-                      <Button
-                        key={interaction}
-                        margin={0}
-                        padding={0}
-                        width="150.5px"
-                        lineHeight={1.75}
-                        disabled={block_interact}
-                        color={block_interact ? 'grey' : colors[interaction]}
-                        content={interaction}
-                        tooltip={descriptions[interaction]}
-                        icon="exclamation-circle"
-                        onClick={() =>
-                          act('interact', {
-                            interaction: interaction,
-                            selfref: ref_self,
-                            userref: ref_user,
-                          })
-                        }
-                      />
+                      <Stack.Item key={Button}>
+                        <Button
+                          key={interaction}
+                          margin={0}
+                          padding={0}
+                          width="450px"
+                          lineHeight={2.3}
+                          disabled={block_interact}
+                          color={block_interact ? 'grey' : colors[interaction]}
+                          content={interaction}
+                          tooltip={descriptions[interaction]}
+                          icon="exclamation-circle"
+                          onClick={() =>
+                            act('interact', {
+                              interaction: interaction,
+                              selfref: ref_self,
+                              userref: ref_user,
+                            })
+                          }
+                        />
+                      </Stack.Item>
                     ))}
                   </Box>
-                </Section>
+                </Stack>
               </Collapsible>
             ))}
-          </Section>
+          </Stack.Item>
         </Stack>
         {lewd_slots.length > 0 ? (
           <Section key="item_slots" title={'Lewd Slots'}>

@@ -96,7 +96,7 @@ SUBSYSTEM_DEF(player_ranks)
 	//if(admin_bypass && is_admin(user))
 	//	return TRUE
 
-//	return FALSE // Arc Station 13 Edit - Fuck Vet's system
+//	return FALSE // Ark Station 13 Edit - Fuck Vet's system
 
 
 /// Handles loading donators either via SQL or using the legacy system,

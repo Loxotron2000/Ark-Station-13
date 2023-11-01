@@ -26,7 +26,6 @@
 
 	departments_list = list(
 		/datum/job_department/central_command,
-		/datum/job_department/command,
 	)
 	liver_traits = list(TRAIT_PRETENDER_ROYAL_METABOLISM)
 
@@ -39,7 +38,7 @@
 		/obj/item/clothing/head/collectable/captain = 4,
 	)
 
-	//veteran_only = TRUE // Arc Station 13 Edit - Fuck Vet's system
+	//veteran_only = TRUE // Ark Station 13 Edit - Fuck Vet's system
 	job_flags = STATION_JOB_FLAGS | JOB_CANNOT_OPEN_SLOTS
 
 /datum/outfit/job/blueshield

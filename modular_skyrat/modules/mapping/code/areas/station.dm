@@ -73,7 +73,7 @@
 // Security areas
 // CO Office
 /area/station/security/corrections_officer
-	name = "Corrections Officer Lounge"
+	name = "Warden's Lounge"
 	icon = 'modular_skyrat/modules/mapping/icons/areas/areas_station.dmi'
 	icon_state = "corrections_officer"
 

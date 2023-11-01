@@ -260,7 +260,7 @@ TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/white)
 
 /// Red trimlines
 /obj/effect/turf_decal/trimline/red
-	color = "#486091" //SKYRAT EDIT CHANGE
+	color = "#DE3A3A" //SKYRAT EDIT CHANGE // ARK STATION EDIT
 
 TRIMLINE_SUBTYPE_HELPER(/obj/effect/turf_decal/trimline/red)
 

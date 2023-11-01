@@ -12,7 +12,6 @@
 		TRAIT_NOBREATH,
 		TRAIT_OXYIMMUNE,
 		TRAIT_VIRUSIMMUNE,
-		TRAIT_CAN_USE_FLIGHT_POTION,
 		TRAIT_LITERATE,
 		TRAIT_DRINKS_BLOOD,
 		TRAIT_USES_SKINTONES,
@@ -30,7 +29,7 @@
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	examine_limb_id = SPECIES_HUMAN
 	skinned_type = /obj/item/stack/sheet/animalhide/human
-	//veteran_only = TRUE // Arc Station 13 Edit - Fuck Vet's system
+	//veteran_only = TRUE // Ark Station 13 Edit - Fuck Vet's system
 
 
 /datum/species/hemophage/check_roundstart_eligible()

@@ -12,7 +12,7 @@
 	value = 0
 	mob_trait = TRAIT_OVERSIZED
 	icon = FA_ICON_EXPAND_ARROWS_ALT
-	//veteran_only = TRUE // Arc Station 13 Edit - Fuck Vet's system
+	//veteran_only = TRUE // Ark Station 13 Edit - Fuck Vet's system
 	quirk_flags = QUIRK_HUMAN_ONLY|QUIRK_CHANGES_APPEARANCE
 
 /datum/quirk/oversized/add(client/client_source)

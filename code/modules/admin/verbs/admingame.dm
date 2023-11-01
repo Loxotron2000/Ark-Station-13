@@ -42,7 +42,7 @@
 			player_ranks += "Mentor"
 
 		//if(SSplayer_ranks.is_veteran(M.client, admin_bypass = FALSE))
-			//player_ranks += "Veteran" // Arc Station 13 Edit - Fuck Vet's system
+			//player_ranks += "Veteran" // Ark Station 13 Edit - Fuck Vet's system
 
 		body += "<br><br><b>Player Ranks: </b>[length(player_ranks) ? player_ranks.Join(", ") : "None"]"
 		// SKYRAT EDIT END

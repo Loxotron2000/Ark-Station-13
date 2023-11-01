@@ -61,7 +61,7 @@
 		data[species_id]["enabled_features"] = species.get_features()
 		data[species_id]["perks"] = species.get_species_perks()
 		data[species_id]["diet"] =  species.get_species_diet()
-		//data[species_id]["veteran_only"] = species.veteran_only // // Arc Station 13 Edit - Fuck Vet's system
+		//data[species_id]["veteran_only"] = species.veteran_only // // Ark Station 13 Edit - Fuck Vet's system
 
 		qdel(species)
 

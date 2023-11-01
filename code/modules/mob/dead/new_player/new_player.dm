@@ -123,7 +123,7 @@
 			return "[jobtitle] is already filled to capacity."
 		//SKYRAT EDIT ADDITION
 		//if(JOB_NOT_VETERAN)
-			//return "You need to be veteran to join as [jobtitle]." // Arc Station 13 Edit - Fuck Vet's system
+			//return "You need to be veteran to join as [jobtitle]." // Ark Station 13 Edit - Fuck Vet's system
 		if(JOB_UNAVAILABLE_QUIRK)
 			return "[jobtitle] is restricted due to your selected quirks."
 		if(JOB_UNAVAILABLE_LANGUAGE)
@@ -168,7 +168,7 @@
 	if(job.has_banned_quirk(client.prefs))
 		return JOB_UNAVAILABLE_QUIRK
 	//if(job.veteran_only && !SSplayer_ranks.is_veteran(client))
-		//return JOB_NOT_VETERAN // Arc Station 13 Edit - Fuck Vet's system
+		//return JOB_NOT_VETERAN // Ark Station 13 Edit - Fuck Vet's system
 	if(job.has_banned_species(client.prefs))
 		return JOB_UNAVAILABLE_SPECIES
 	//SKYRAT EDIT END
