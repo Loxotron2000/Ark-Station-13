@@ -57,7 +57,7 @@
 
 //InteQ
 
-/obj/item/clothing/under/inteq_honorable_vanguard
+/obj/item/clothing/under/syndicate/inteq_honorable_vanguard
 	name = "black combat turtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -65,7 +65,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under_digidrated.dmi'
 	icon_state = "inteq_honorable"
 
-/obj/item/clothing/under/inteq
+/obj/item/clothing/under/syndicate/inteq
 	name = "brown combat turtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -73,7 +73,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under_digidrated.dmi'
 	icon_state = "inteq"
 
-/obj/item/clothing/under/inteq_skirt
+/obj/item/clothing/under/syndicate/inteq_skirt
 	name = "brown combat skirtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -81,7 +81,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under.dmi'
 	icon_state = "inteq_skirt"
 
-/obj/item/clothing/under/inteq_eng
+/obj/item/clothing/under/syndicate/inteq_eng
 	name = "brown engineering turtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -89,7 +89,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under_digidrated.dmi'
 	icon_state = "inteqeng"
 
-/obj/item/clothing/under/inteq_eng_skirt
+/obj/item/clothing/under/syndicate/inteq_eng_skirt
 	name = "brown engineering skirtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -97,7 +97,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under.dmi'
 	icon_state = "inteqeng_skirt"
 
-/obj/item/clothing/under/inteq_maid
+/obj/item/clothing/under/syndicate/inteq_maid
 	name = "brown combat maidsuit"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish. Battle maids!"
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -108,7 +108,7 @@
 	can_adjust = FALSE
 
 
-/obj/item/clothing/under/inteq_maid/Initialize(mapload)
+/obj/item/clothing/under/syndicate/inteq_maid/Initialize(mapload)
 	. = ..()
 	var/obj/item/clothing/accessory/maidapron/inteq/A = new (src)
 	attach_accessory(A)
@@ -120,7 +120,7 @@
 	worn_icon = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under.dmi'
 	icon_state = "maidapron"
 
-/obj/item/clothing/under/inteq_med
+/obj/item/clothing/under/syndicate/inteq_med
 	name = "white combat turtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish. Designed for field medics."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'
@@ -128,7 +128,7 @@
 	worn_icon_digi = 'modular_arkstation/krashly_modulars/icons/mob/clothing/under_digidrated.dmi'
 	icon_state = "inteqmed"
 
-/obj/item/clothing/under/inteq_med_skirt
+/obj/item/clothing/under/syndicate/inteq_med_skirt
 	name = "white combat skirtleneck"
 	desc = "It sits comfortably, does not hinder movement, and most importantly, it is very stylish. Designed for field medics."
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/clothing/under.dmi'

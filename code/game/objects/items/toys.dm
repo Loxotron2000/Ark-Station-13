@@ -1002,7 +1002,7 @@
  */
 /obj/item/toy/figure
 	name = "\improper Non-Specific Action Figure action figure"
-	icon = 'icons/obj/toys/toy.dmi'
+	icon = 'icons/obj/toys/toy.dmi' // modular_arkstation\krashly_modulars\code\game\objects\items\item.dm // New Icons
 	icon_state = "nuketoy"
 	var/cooldown = 0
 	var/toysay = "What the fuck did you do?"

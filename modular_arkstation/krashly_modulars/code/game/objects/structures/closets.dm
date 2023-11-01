@@ -12,8 +12,8 @@
 
 /obj/structure/closet/syndicate/inteq/personal/PopulateContents()
 	..()
-	new /obj/item/clothing/under/inteq(src)
-	new /obj/item/clothing/under/inteq_skirt(src)
+	new /obj/item/clothing/under/syndicate/inteq(src)
+	new /obj/item/clothing/under/syndicate/inteq_skirt(src)
 	new /obj/item/clothing/shoes/sneakers/black(src)
 	new /obj/item/radio/headset/syndicate(src)
 	new /obj/item/ammo_box/magazine/m10mm(src)
@@ -21,7 +21,7 @@
 	new /obj/item/crowbar/red(src)
 	new /obj/item/clothing/glasses/night(src)
 	new /obj/item/clothing/glasses/hud/security/sunglasses/inteq(src)
-	new /obj/item/clothing/under/inteq_maid(src)
+	new /obj/item/clothing/under/syndicate/inteq_maid(src)
 
 /obj/machinery/suit_storage_unit/inteq_spacesuit
 	suit_type = /obj/item/clothing/suit/space/syndicate/inteq

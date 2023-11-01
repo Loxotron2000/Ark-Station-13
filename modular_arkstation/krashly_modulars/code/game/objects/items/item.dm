@@ -81,7 +81,7 @@
 	name = "clothes kit"
 
 /obj/item/storage/box/inteq_box/inteq_clothes/PopulateContents()
-	new /obj/item/clothing/under/inteq(src)
+	new /obj/item/clothing/under/syndicate/inteq(src)
 	new /obj/item/clothing/suit/armor/inteq(src)
 	new /obj/item/clothing/gloves/combat(src)
 	new /obj/item/clothing/shoes/combat(src)
@@ -124,3 +124,158 @@
 // /obj/item/clothing/mask/cigarette/inteq
 // 	desc = "Сигарета от известной ЧВК."
 // 	list_reagents = list(/datum/reagent/drug/nicotine = 15, /datum/reagent/medicine/omnizine = 15)
+
+/obj/item/toy/mecha/hermes
+	name = "toy Hermes"
+	icon = 'modular_arkstation/krashly_modulars/icons/obj/toys.dmi'
+	icon_state = "toy_hermes"
+	max_combat_health = 6 //300 integrity
+
+/obj/item/toy/mecha/ares
+	name = "toy Ares"
+	icon = 'modular_arkstation/krashly_modulars/icons/obj/toys.dmi'
+	icon_state = "toy_ares"
+	max_combat_health = 7 //350 integrity
+
+// STGS CODE
+
+//////////////////////////////////////////////
+
+/mob/living/basic/pig/assistant
+	name = "Danya"
+	real_name = "Danya"
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+	maxHealth = 250
+	health = 250
+	gender = MALE
+
+/mob/living/basic/pet/fox/fennec/eldritch
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+	maxHealth = 100
+	health = 100
+	held_state = "fennec_eldritch"
+
+/mob/living/simple_animal/pet/cat/moro
+	name = "Moro"
+	desc = "He likes grechkya."
+	icon_state = "moro"
+	icon_living = "moro"
+	icon_dead = "moro_dead"
+	held_state = "moro"
+	unique_pet = TRUE
+	mob_size = MOB_SIZE_LARGE
+	maxHealth = 250
+	health = 250
+	gender = MALE
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+
+/mob/living/simple_animal/pet/cat/alta
+	name = "Alta"
+	desc = "A cute white cat."
+	icon_state = "alta"
+	icon_living = "alta"
+	icon_dead = "alta_dead"
+	held_state = "alta"
+	unique_pet = TRUE
+	gender = FEMALE
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+
+/mob/living/basic/pet/dog/corgi/Lisa/ada
+	name = "Ada"
+	real_name = "Ada"
+	gender = FEMALE
+	desc = "She will bite your throat till you die."
+	gold_core_spawnable = NO_SPAWN
+	unique_pet = TRUE
+	icon_state = "ada"
+	icon_living = "ada"
+	icon_dead = "ada_dead"
+	held_state = "ada"
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+
+/mob/living/basic/pet/fox/emma
+	name = "Emma"
+	icon_state = "emma"
+	icon_living = "emma"
+	icon_dead = "emma_dead"
+	held_state = "emma"
+	see_in_dark = 10
+	gender = FEMALE
+	icon = 'modular_arkstation/krashly_modulars/icons/animals.dmi'
+
+///////////////
+
+/obj/item/toy/plush/fox/emma
+	name = "Emma plushie"
+	desc = "An adorable stuffed toy resembling a vulp."
+	icon_state = "emma"
+	icon = 'modular_arkstation/krashly_modulars/icons/vulps/vulps.dmi'
+	lefthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_l.dmi'
+	righthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_r.dmi'
+
+/obj/item/toy/plush/fox/emma/shiro
+	name = "Shiro plushie"
+	icon_state = "shiro"
+
+/obj/item/toy/plush/fox/emma/raita
+	name = "Raita plushie"
+	icon_state = "raita"
+
+// /obj/item/toy/plush/fox/emma/aiko // Fuck SmileyCom
+// 	name = "Aiko Plushie"
+// 	icon_state = "aiko"
+// 	item_state = "aiko"
+
+/obj/item/toy/plush/fox/emma/red
+	name = "Red plushie"
+	icon_state = "red"
+
+/obj/item/toy/plush/nukeplushie/who
+	name = "security officer plushie"
+	desc = "A stuffed toy that resembles a Nanotrasen operative. He smells like burnt cotton."
+	icon_state = "who"
+	icon = 'modular_arkstation/krashly_modulars/icons/vulps/vulps.dmi'
+	lefthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_l.dmi'
+	righthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_r.dmi'
+	squeak_override = list('modular_arkstation/krashly_modulars/sound/plush/plush_1.ogg' = 9, 'modular_arkstation/krashly_modulars/sound/plush/plush_2.ogg' = 1)
+
+/obj/item/toy/plush/qm
+	name = "supply chief plushie"
+	desc = "A stuffed toy that resembles a Cargonia Chief. Looks like a fallen economy."
+	icon_state = "qm"
+	icon = 'modular_arkstation/krashly_modulars/icons/vulps/vulps.dmi'
+	lefthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_l.dmi'
+	righthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_r.dmi'
+
+/obj/item/toy/plush/judas
+	name = "yellow shark plushie"
+	desc = "An adorable stuffed plushie that resembles a yellow security shark."
+	icon_state = "judas"
+	squeak_override = list('modular_arkstation/krashly_modulars/sound/plush/voice_alphys.ogg' = 9)
+	icon = 'modular_arkstation/krashly_modulars/icons/vulps/vulps.dmi'
+	lefthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_l.dmi'
+	righthand_file = 'modular_arkstation/krashly_modulars/icons/vulps/vulps_r.dmi'
+
+/obj/item/toy/plush/nukeplushie/omega
+	name = "Omega plushie"
+	desc = "This plushie really has an empty noggin and zero thoughts about commiting something especially cruel."
+	icon_state = "omega"
+	icon = 'modular_arkstation/krashly_modulars/icons/vulps/vulps.dmi'
+	squeak_override = list('modular_arkstation/krashly_modulars/sound/plush/ooh.ogg' = 9)
+
+/obj/item/toy/plush/judas/vance
+	name = "Vance plushie"
+	desc = "A plush rodent, she smells like cheese and xenobiology!"
+	icon_state = "vance"
+	squeak_override = list('sound/items/toysqueak1.ogg' = 3, 'sound/items/toysqueak2.ogg' = 3, 'sound/items/toysqueak3.ogg' = 3)
+
+
+///////////////////
+
+/obj/item/toy/figure
+	icon = 'modular_arkstation/krashly_modulars/icons/toys.dmi'
+
+/obj/item/toy/figure/inteq
+	name = "\improper InteQ Mercenary action figure"
+	icon_state = "inteq"
+	toysay = "For money!"

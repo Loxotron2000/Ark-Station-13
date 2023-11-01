@@ -4,6 +4,7 @@
 	name = "\improper MIB-02 Ares"
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/mecha/ares.dmi'
 	icon_state = "ares"
+	base_icon_state = "ares"
 	wreckage = /obj/structure/mecha_wreckage/ares
 
 /obj/vehicle/sealed/mecha/marauder/mauler/ares/generate_actions()
@@ -50,6 +51,7 @@
 /obj/vehicle/sealed/mecha/gygax/dark/hermes
 	desc = "Отличный для быстрых атак Мех. Разработки Солнечной Федерации позволили нападать с флангов на металлической коннице. Гермес не заменим своей маневренностью и скоростью."
 	name = "\improper MIB-01 Hermes"
+	base_icon_state = "hermes"
 	icon = 'modular_arkstation/krashly_modulars/icons/obj/mecha/hermes.dmi'
 	icon_state = "hermes"
 	wreckage = /obj/structure/mecha_wreckage/hermes

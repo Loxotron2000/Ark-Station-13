@@ -1,7 +1,7 @@
 /datum/outfit/inteq_raider
 	name = "InteQ Raider"
 
-	uniform = /obj/item/clothing/under/inteq
+	uniform = /obj/item/clothing/under/syndicate/inteq
 	mask = /obj/item/clothing/mask/balaclava/breath/inteq
 	glasses = /obj/item/clothing/glasses/hud/security/sunglasses/inteq
 	shoes = /obj/item/clothing/shoes/combat
