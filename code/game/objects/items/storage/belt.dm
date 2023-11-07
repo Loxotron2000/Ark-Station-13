@@ -330,19 +330,21 @@
 /obj/item/storage/belt/security
 	name = "security belt"
 	desc = "Can hold security gear like handcuffs and flashes."
-	icon_state = "security"
+	icon_state = "secbelt"
 	inhand_icon_state = "security"//Could likely use a better one.
-	worn_icon_state = "security"
+	worn_icon_state = "secbelt"
 	content_overlays = TRUE
-	// SKYRAT EDIT ADDITION START
 	uses_advanced_reskins = TRUE
 	unique_reskin = list(
+	// ARK STATION ADDITION START
 		"Basic Security" = list(
-			RESKIN_ICON = 'icons/obj/clothing/belts.dmi',
-			RESKIN_ICON_STATE = "security",
-			RESKIN_WORN_ICON = 'icons/mob/clothing/belt.dmi',
-			RESKIN_WORN_ICON_STATE = "security"
+			RESKIN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi',
+			RESKIN_ICON_STATE = "secbelt",
+			RESKIN_WORN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi',
+			RESKIN_WORN_ICON_STATE = "secbelt"
 		),
+	// ARK STATION ADDITION END
+	// SKYRAT EDIT ADDITION START
 		"Peacekeeper" = list(
 			RESKIN_ICON = 'modular_skyrat/master_files/icons/obj/clothing/belts.dmi',
 			RESKIN_ICON_STATE = "peacekeeperbelt",
@@ -387,11 +389,28 @@
 /obj/item/storage/belt/security/webbing
 	name = "security webbing"
 	desc = "Unique and versatile chest rig, can hold security gear."
-	icon_state = "securitywebbing"
+	icon_state = "secwebbing"
 	inhand_icon_state = "securitywebbing"
-	worn_icon_state = "securitywebbing"
+	worn_icon_state = "secwebbing"
 	content_overlays = FALSE
 	custom_premium_price = PAYCHECK_COMMAND * 3
+	// ARK STATION ADDITION START
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Basic Security webbing" = list(
+			RESKIN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi',
+			RESKIN_ICON_STATE = "secwebbing",
+			RESKIN_WORN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi',
+			RESKIN_WORN_ICON_STATE = "secwebbing"
+		),
+		"Russian webbing" = list(
+			RESKIN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi',
+			RESKIN_ICON_STATE = "russianweb",
+			RESKIN_WORN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi',
+			RESKIN_WORN_ICON_STATE = "russianweb"
+		)
+	)
+	// ARK STATION ADDITION END
 
 /obj/item/storage/belt/security/webbing/Initialize(mapload)
 	. = ..()

@@ -135,11 +135,30 @@
 	// 	),
 	// )
 
+	// ARK STATION ADDITION START
 /obj/item/storage/belt/security/webbing
-	uses_advanced_reskins = FALSE
-	unique_reskin = NONE
-	current_skin = "securitywebbing" //Prevents reskinning
-
+	name = "security webbing"
+	desc = "Unique and versatile chest rig, can hold security gear."
+	icon_state = "secwebbing"
+	inhand_icon_state = "securitywebbing"
+	worn_icon_state = "secwebbing"
+	content_overlays = FALSE
+	uses_advanced_reskins = TRUE
+	unique_reskin = list(
+		"Basic Security webbing" = list(
+			RESKIN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi',
+			RESKIN_ICON_STATE = "secwebbing",
+			RESKIN_WORN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi',
+			RESKIN_WORN_ICON_STATE = "secwebbing"
+		),
+		"Russian webbing" = list(
+			RESKIN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi',
+			RESKIN_ICON_STATE = "russianweb",
+			RESKIN_WORN_ICON = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi',
+			RESKIN_WORN_ICON_STATE = "russianweb"
+		)
+	)
+	// ARK STATION ADDITION END
 /obj/item/storage/belt/security/webbing/peacekeeper //did I mention this codebase is fucking awful
 	current_skin = "peacekeeper_webbing"
 
@@ -733,11 +752,11 @@
 */
 
 /obj/item/storage/belt/security/redsec
-	icon = 'icons/obj/clothing/belts.dmi'
-	worn_icon = 'icons/mob/clothing/belt.dmi'
-	icon_state = "security"
+	icon = 'zov_modular_arkstation/loxotron2000_modulars/icons/obj/clothing/belts.dmi'
+	worn_icon = 'zov_modular_arkstation/loxotron2000_modulars/icons/mob/clothing/belt.dmi'
+	icon_state = "secbelt"
 	inhand_icon_state = "security"
-	worn_icon_state = "security"
+	worn_icon_state = "secbelt"
 	current_skin = "security" //prevents reskinning
 
 /obj/item/storage/belt/holster
